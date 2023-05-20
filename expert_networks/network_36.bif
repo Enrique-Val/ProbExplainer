@@ -1,0 +1,78 @@
+network unknown {
+}
+variable F1 {
+  type discrete [ 2 ] { intralaminar, translaminar };
+}
+variable F2 {
+  type discrete [ 2 ] { intracolumnar, transcolumnar };
+}
+variable F3 {
+  type discrete [ 2 ] { centered, displaced };
+}
+variable F4 {
+  type discrete [ 4 ] { ascending, both, descending, None };
+}
+variable F5 {
+  type discrete [ 10 ] { arcade, Cajal-Retzius, chandelier, common_basket, common_type, horse-tail, large_basket, Martinotti, neurogliaform, other };
+}
+probability ( F1 | F2, F5 ) {
+  (intracolumnar, arcade) 0.5, 0.5;
+  (transcolumnar, arcade) 0.02380952, 0.97619048;
+  (intracolumnar, Cajal-Retzius) 0.5, 0.5;
+  (transcolumnar, Cajal-Retzius) 0.97619048, 0.02380952;
+  (intracolumnar, chandelier) 0.8546099, 0.1453901;
+  (transcolumnar, chandelier) 0.5, 0.5;
+  (intracolumnar, common_basket) 0.4902057, 0.5097943;
+  (transcolumnar, common_basket) 0.8115265, 0.1884735;
+  (intracolumnar, common_type) 0.5199601, 0.4800399;
+  (transcolumnar, common_type) 0.3812352, 0.6187648;
+  (intracolumnar, horse-tail) 0.001557632, 0.998442368;
+  (transcolumnar, horse-tail) 0.5, 0.5;
+  (intracolumnar, large_basket) 0.5, 0.5;
+  (transcolumnar, large_basket) 0.1879875, 0.8120125;
+  (intracolumnar, Martinotti) 0.01219512, 0.98780488;
+  (transcolumnar, Martinotti) 0.06521739, 0.93478261;
+  (intracolumnar, neurogliaform) 0.998866213, 0.001133787;
+  (transcolumnar, neurogliaform) 0.97619048, 0.02380952;
+  (intracolumnar, other) 0.1276113, 0.8723887;
+  (transcolumnar, other) 0.10199, 0.89801;
+}
+probability ( F2 | F5 ) {
+  (arcade) 0.04545455, 0.95454545;
+  (Cajal-Retzius) 0.04545455, 0.95454545;
+  (chandelier) 0.992957746, 0.007042254;
+  (common_basket) 0.7608048, 0.2391952;
+  (common_type) 0.5433839, 0.4566161;
+  (horse-tail) 0.99689441, 0.00310559;
+  (large_basket) 0.001557632, 0.998442368;
+  (Martinotti) 0.06193353, 0.93806647;
+  (neurogliaform) 0.95454545, 0.04545455;
+  (other) 0.8456221, 0.1543779;
+}
+probability ( F3 | F5 ) {
+  (arcade) 0.04545455, 0.95454545;
+  (Cajal-Retzius) 0.95454545, 0.04545455;
+  (chandelier) 0.4295775, 0.5704225;
+  (common_basket) 0.6117735, 0.3882265;
+  (common_type) 0.521692, 0.478308;
+  (horse-tail) 0.00310559, 0.99689441;
+  (large_basket) 0.7492212, 0.2507788;
+  (Martinotti) 0.03172205, 0.96827795;
+  (neurogliaform) 0.7813853, 0.2186147;
+  (other) 0.1236559, 0.8763441;
+}
+probability ( F4 | F5 ) {
+  (arcade) 0.93181818, 0.02272727, 0.02272727, 0.02272727;
+  (Cajal-Retzius) 0.02272727, 0.02272727, 0.02272727, 0.93181818;
+  (chandelier) 0.003521127, 0.003521127, 0.144366197, 0.848591549;
+  (common_basket) 0.0748882265, 0.1046944858, 0.0003725782, 0.8200447094;
+  (common_type) 0.06561822, 0.13069414, 0.06561822, 0.73806941;
+  (horse-tail) 0.187888199, 0.063664596, 0.746894410, 0.001552795;
+  (large_basket) 0.03193146, 0.06308411, 0.12538941, 0.77959502;
+  (Martinotti) 0.695619335, 0.212235650, 0.000755287, 0.091389728;
+  (neurogliaform) 0.001082251, 0.001082251, 0.001082251, 0.996753247;
+  (other) 0.2154378, 0.1847158, 0.3844086, 0.2154378;
+}
+probability ( F5 ) {
+  table 0.003767123, 0.003767123, 0.024315068, 0.229794521, 0.157876712, 0.055136986, 0.109931507, 0.113356164, 0.079109589, 0.222945205;
+}

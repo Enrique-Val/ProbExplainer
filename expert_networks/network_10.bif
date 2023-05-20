@@ -1,0 +1,68 @@
+network unknown {
+}
+variable F1 {
+  type discrete [ 2 ] { intralaminar, translaminar };
+}
+variable F2 {
+  type discrete [ 2 ] { intracolumnar, transcolumnar };
+}
+variable F3 {
+  type discrete [ 2 ] { centered, displaced };
+}
+variable F4 {
+  type discrete [ 4 ] { ascending, both, descending, None };
+}
+variable F5 {
+  type discrete [ 10 ] { arcade, Cajal-Retzius, chandelier, common_basket, common_type, horse-tail, large_basket, Martinotti, neurogliaform, other };
+}
+probability ( F1 | F5 ) {
+  (arcade) 0.2887324, 0.7112676;
+  (Cajal-Retzius) 0.5, 0.5;
+  (chandelier) 0.4009901, 0.5990099;
+  (common_basket) 0.6532567, 0.3467433;
+  (common_type) 0.3060942, 0.6939058;
+  (horse-tail) 0.0007800312, 0.9992199688;
+  (large_basket) 0.1411856, 0.8588144;
+  (Martinotti) 0.0008756567, 0.9991243433;
+  (neurogliaform) 0.8369272, 0.1630728;
+  (other) 0.5, 0.5;
+}
+probability ( F2 | F5 ) {
+  (arcade) 0.7112676, 0.2887324;
+  (Cajal-Retzius) 0.5, 0.5;
+  (chandelier) 0.6980198, 0.3019802;
+  (common_basket) 0.8831418, 0.1168582;
+  (common_type) 0.7770083, 0.2229917;
+  (horse-tail) 0.8276131, 0.1723869;
+  (large_basket) 0.4375975, 0.5624025;
+  (Martinotti) 0.4211909, 0.5788091;
+  (neurogliaform) 0.97169811, 0.02830189;
+  (other) 0.5, 0.5;
+}
+probability ( F3 | F5 ) {
+  (arcade) 0.7112676, 0.2887324;
+  (Cajal-Retzius) 0.5, 0.5;
+  (chandelier) 0.3019802, 0.6980198;
+  (common_basket) 0.8831418, 0.1168582;
+  (common_type) 0.5554017, 0.4445983;
+  (horse-tail) 0.01638066, 0.98361934;
+  (large_basket) 0.8432137, 0.1567863;
+  (Martinotti) 0.0008756567, 0.9991243433;
+  (neurogliaform) 0.94474394, 0.05525606;
+  (other) 0.5, 0.5;
+}
+probability ( F4 | F5 ) {
+  (arcade) 0.003521127, 0.144366197, 0.144366197, 0.707746479;
+  (Cajal-Retzius) 0.25, 0.25, 0.25, 0.25;
+  (chandelier) 0.002475248, 0.002475248, 0.497524752, 0.497524752;
+  (common_basket) 0.0392720307, 0.0009578544, 0.0009578544, 0.9588122605;
+  (common_type) 0.05609418, 0.22229917, 0.11149584, 0.61011080;
+  (horse-tail) 0.0003900156, 0.0003900156, 0.9832293292, 0.0159906396;
+  (large_basket) 0.0471918877, 0.0003900156, 0.0783931357, 0.8740249610;
+  (Martinotti) 0.9461471103, 0.0354640981, 0.0179509632, 0.0004378284;
+  (neurogliaform) 0.0006738544, 0.0006738544, 0.0276280323, 0.9710242588;
+  (other) 0.25, 0.25, 0.25, 0.25;
+}
+probability ( F5 ) {
+  table 0.0235099338, 0.0003311258, 0.0334437086, 0.0864238411, 0.1195364238, 0.2122516556, 0.2122516556, 0.1890728477, 0.1228476821, 0.0003311258;
+}

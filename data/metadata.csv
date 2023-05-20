@@ -1,0 +1,321 @@
+"neuron";"scanned.paper.id";"neuromorpho.name";"species";"area";"layer";"rotated";"archive";"original.type";"paper"
+1;"kisvarday1986fig2N7";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+2;"";"2001-11-09-B-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+3;"";"020801-2-ST";"Mouse";"Visual";"V";FALSE;"Yuste";"Somatostatin (SOM) containing cell";"Correlation between axonal morphologies and synaptic input kinetics of interneurons from mouse visual cortex"
+4;"";"C130897B-I1";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+5;"";"2004-02-12-C-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+6;"kisvarday1986fig2N3";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+7;"";"RosaA262A";"Mouse";"Visual";"not reported";FALSE;"Yuste";"Not reported";"Attractor dynamics of network UP states in the neocortex"
+8;"";"C150501A-I3";"Rat";"Somatosensory";"V";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+9;"";"07-07-00-3mediumarbor";"Monkey";"Prefrontal";"II/III";FALSE;NA;NA;NA
+10;"";"C060400B2";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Double bouquet cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+11;"";"2004-02-12-B-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+12;"";"03-27-01-3wideArbor";"Monkey";"Prefrontal";"II/III";FALSE;"Gonzalez-Burgos";"Basket cell";"Cluster analysis-based physiological classification and morphological properties of inhibitory neurons in layers 2-3 of monkey dorsolateral prefrontal cortex"
+13;"";"2002-11-27-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+14;"lund1991fig4N3";"";"Monkey";"Visual";"III";FALSE;NA;NA;NA
+15;"";"JM092503-10-2";"Mouse";"Somatosensory";"IV";FALSE;"Yuste";"Not reported";"Internal dynamics determine the cortical response to thalamic stimulation"
+16;"";"030224-4-PV";"Mouse";"Visual";"not reported";FALSE;"Yuste";"Parvalbumin (PV) containing cell";"Correlation between axonal morphologies and synaptic input kinetics of interneurons from mouse visual cortex"
+17;"";"C230998C-I4";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+18;"";"2001-10-04-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+19;"";"2002-12-09-B-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+20;"";"C070301B2";"Rat";"Somatosensory";"VI";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+21;"";"2001-10-11-C-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+22;"lund1993fig15N1";"";"Monkey";"Prefrontal";"II";FALSE;NA;NA;NA
+23;"";"C181000A-I3";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+24;"";"020621-1-NPY";"Mouse";"Visual";"V";FALSE;"Yuste";"Neuropeptide Y (NPY) containing cell";"Correlation between axonal morphologies and synaptic input kinetics of interneurons from mouse visual cortex"
+25;"";"2002-03-26-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+26;"";"C250298A-I4";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Bitufted cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+27;"lewis1990fig5N1";"";"Monkey";"Prefrontal";"IV";FALSE;NA;NA;NA
+28;"lund1987fig12N1";"";"Monkey";"Visual";"V";FALSE;NA;NA;NA
+29;"";"C170998D-I4";"Rat";"Somatosensory";"II/III";TRUE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+30;"";"JMn020305-20-1";"Mouse";"Somatosensory";"IV";FALSE;"Yuste";"Not reported";"Internal dynamics determine the cortical response to thalamic stimulation"
+31;"";"C180298A-I4";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+32;"";"GA01919c1n2";"Mouse";"Somatosensory";"IV";FALSE;"Yuste";"Not reported";"Internal dynamics determine the cortical response to thalamic stimulation"
+33;"lund1993fig10N1";"";"Monkey";"Prefrontal";"III";FALSE;NA;NA;NA
+34;"";"BW042905-10";"Mouse";"Visual";"V";FALSE;"Yuste";"Not reported";"Modular propagation of epileptiform activity: evidence for an inhibitory veto in neocortex"
+35;"";"C170897A-I1";"Rat";"Somatosensory";"IV";TRUE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+36;"CCfig19N1";"";"Cat";"Auditory";"IV";FALSE;NA;NA;NA
+37;"kisvarday1986fig2N5";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+38;"CCfig5N2";"";"Human";"Somatosensory";"III";FALSE;NA;NA;NA
+39;"";"2003-12-03-B2-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+40;"";"C050398B-I3";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+41;"lund1987fig14N1";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+42;"lund1993fig15N2";"";"Monkey";"Prefrontal";"IV";FALSE;NA;NA;NA
+43;"";"Vn05302006-1-C";"Mouse";"Somatosensory";"not reported";FALSE;"Yuste";"Somatostatin (SOM) containing cell";"Two-photon photostimulation and imaging of neural circuits"
+44;"";"2001-11-13-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+45;"lund1993fig19N2";"";"Monkey";"Prefrontal";"III";FALSE;NA;NA;NA
+46;"lund1991fig3N2";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+47;"";"10-04-01-4doubleBouquet";"Monkey";"Prefrontal";"II/III";FALSE;"Gonzalez-Burgos";"Double bouquet cell";"Cluster analysis-based physiological classification and morphological properties of inhibitory neurons in layers 2-3 of monkey dorsolateral prefrontal cortex"
+48;"";"2001-10-09-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+49;"CCfig15N1";"";"Cat";"Visual";"II/III";FALSE;NA;NA;NA
+50;"";"C240298B-I2";"Rat";"Somatosensory";"IV";TRUE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+51;"";"C170797A-I4";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+52;"";"C140898A-I3";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+53;"";"C310897A-I1";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+54;"";"C300898C-I3";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+55;"";"C080998A";"Rat";"Somatosensory";"V";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+56;"";"C190898A-I1";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Bitufted cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+57;"";"JMcell";"Mouse";"Somatosensory";"IV";FALSE;"Yuste";"Not reported";"Internal dynamics determine the cortical response to thalamic stimulation"
+58;"";"C140300B-I2";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+59;"";"2003-02-24-A2-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+60;"CCfig4N1";"";"Monkey";"Somatosensory";"IV";FALSE;NA;NA;NA
+61;"";"C240298B-I4";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+62;"lund1993fig19N1";"";"Monkey";"Prefrontal";"III";FALSE;NA;NA;NA
+63;"";"2003-12-03-B1-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+64;"lund1993fig18N1";"";"Monkey";"Prefrontal";"III";FALSE;NA;NA;NA
+65;"";"C230797B-I2";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Chandelier cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+66;"";"C050896A-I";"Rat";"Somatosensory";"V";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+67;"";"020227-slice1";"Mouse";"Visual";"not reported";FALSE;"Yuste";"Neuropeptide Y (NPY) containing cell";"Calcium microdomains in aspiny dendrites"
+68;"";"2003-02-15-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+69;"";"020801-1-ST";"Mouse";"Visual";"not reported";FALSE;"Yuste";"Somatostatin (SOM) containing cell";"Calcium microdomains in aspiny dendrites"
+70;"";"030430-5";"Mouse";"Visual";"V";FALSE;"Yuste";"Somatostatin (SOM) containing cell";"Calcium microdomains in aspiny dendrites"
+71;"lund1987fig3N1";"";"Monkey";"Visual";"V";FALSE;NA;NA;NA
+72;"";"C130200-19";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Bipolar cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+73;"";"M071505SL1";"Mouse";"Frontal";"II/III";FALSE;"Yuste";"Not reported";"Large-scale imaging of cortical network activity with calcium indicators"
+74;"";"JMcell8or11-1";"Mouse";"Somatosensory";"IV";FALSE;"Yuste";"Not reported";"Internal dynamics determine the cortical response to thalamic stimulation"
+75;"";"2001-10-10-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+76;"";"C050600B1";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+77;"";"C130301C";"Rat";"Somatosensory";"V";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+78;"";"030223-5-PV";"Mouse";"Visual";"IV";FALSE;"Yuste";"Parvalbumin (PV) containing cell";"Correlation between axonal morphologies and synaptic input kinetics of interneurons from mouse visual cortex"
+79;"";"JMn071204";"Mouse";"Somatosensory";"IV";FALSE;"Yuste";"Not reported";"Internal dynamics determine the cortical response to thalamic stimulation"
+80;"peters1981fig8N2";"";"Cat";"Visual";"II/III";FALSE;NA;NA;NA
+81;"";"C040600B1";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+82;"";"AM85-2-1";"Mouse";"Visual";"not reported";FALSE;"Yuste";"Martinotti cell";"Modular propagation of epileptiform activity: evidence for an inhibitory veto in neocortex"
+83;"CCfig9N1";"";"Cat";"Visual";"IV";FALSE;NA;NA;NA
+84;"";"C010398B-I4";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+85;"kisvarday1990fig3N18";"";"Human";"Temporal";"II/III";FALSE;NA;NA;NA
+86;"kisvarday1990fig3N20";"";"Human";"Temporal";"IV";FALSE;NA;NA;NA
+87;"";"MJ122304-1-2";"Mouse";"Frontal";"II/III";FALSE;"Yuste";"Not reported";"Large-scale imaging of cortical network activity with calcium indicators"
+88;"";"05-26-00-s2localArbor";"Monkey";"Prefrontal";"II/III";FALSE;"Gonzalez-Burgos";"Basket cell";"Cluster analysis-based physiological classification and morphological properties of inhibitory neurons in layers 2-3 of monkey dorsolateral prefrontal cortex"
+89;"";"C231001B3";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Double bouquet cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+90;"";"030429-5";"Mouse";"Visual";"V";FALSE;"Yuste";"Somatostatin (SOM) containing cell";"Calcium microdomains in aspiny dendrites"
+91;"lund1991fig10N2";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+92;"";"05-30-01-7wideAarbor";"Monkey";"Prefrontal";"II/III";FALSE;"Gonzalez-Burgos";"Basket cell";"Cluster analysis-based physiological classification and morphological properties of inhibitory neurons in layers 2-3 of monkey dorsolateral prefrontal cortex"
+93;"";"030521-1";"Mouse";"Visual";"V";FALSE;"Yuste";"Somatostatin (SOM) containing cell";"Calcium microdomains in aspiny dendrites"
+94;"";"JM072303";"Mouse";"Somatosensory";"IV";FALSE;"Yuste";"Stellate cell";"Internal dynamics determine the cortical response to thalamic stimulation"
+95;"";"JMcell1or7-1";"Mouse";"Somatosensory";"IV";FALSE;"Yuste";"Not reported";"Internal dynamics determine the cortical response to thalamic stimulation"
+96;"";"05-26-00-s5localArbor";"Monkey";"Prefrontal";"II/III";FALSE;"Gonzalez-Burgos";"Basket cell";"Cluster analysis-based physiological classification and morphological properties of inhibitory neurons in layers 2-3 of monkey dorsolateral prefrontal cortex"
+97;"CCfig5N1";"";"Human";"Somatosensory";"III";FALSE;NA;NA;NA
+98;"";"C190199A-I4";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+99;"kisvarday1990fig3N17";"";"Human";"Temporal";"IV";FALSE;NA;NA;NA
+100;"";"C040600B3";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+101;"lund1993fig8N1";"";"Monkey";"Prefrontal";"II";FALSE;NA;NA;NA
+102;"";"020621-3-NPY";"Mouse";"Visual";"II/III";FALSE;"Yuste";"Neuropeptide Y (NPY) containing cell";"Correlation between axonal morphologies and synaptic input kinetics of interneurons from mouse visual cortex"
+103;"";"2003-03-19-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+104;"";"C140300B-I3";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+105;"";"C290500B-I3";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+106;"";"C290500C-I4";"Rat";"Somatosensory";"V";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+107;"";"C061000A3";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+108;"";"C010600B1";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+109;"";"C310897A-I2";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+110;"";"JM042903-20";"Mouse";"Somatosensory";"IV";FALSE;"Yuste";"Not reported";"Internal dynamics determine the cortical response to thalamic stimulation"
+111;"";"C251197A-I3";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+112;"";"JM091703-20-1";"Mouse";"Somatosensory";"IV";FALSE;"Yuste";"Not reported";"Internal dynamics determine the cortical response to thalamic stimulation"
+113;"";"C090997A-I3";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+114;"";"C230998C-I2";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+115;"lund1987fig16N2";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+116;"CCfig5bN1";"";"Monkey";"Somatosensory";"III";FALSE;NA;NA;NA
+117;"kisvarday1986fig2N6";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+118;"lund1987fig13N2";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+119;"";"C090997A-I2";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+120;"";"GA05505-1";"Mouse";"Somatosensory";"IV";FALSE;"Yuste";"Not reported";"Internal dynamics determine the cortical response to thalamic stimulation"
+121;"";"C170500A-I4";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+122;"";"C020600C1";"Rat";"Somatosensory";"IV";TRUE;"Markram";"Bitufted cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+123;"";"MD070620-2";"Mouse";"Somatosensory";"not reported";FALSE;"Yuste";"Not reported";"Two-photon photostimulation and imaging of neural circuits"
+124;"CCfig11N1";"";"Cat";"Visual";"II/III";FALSE;NA;NA;NA
+125;"";"GA02531-C3";"Mouse";"Somatosensory";"IV";FALSE;"Yuste";"Not reported";"Internal dynamics determine the cortical response to thalamic stimulation"
+126;"";"C280998A-I2";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+127;"";"C060400C1";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+128;"";"2003-02-21-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+129;"kisvarday1990fig3N22";"";"Human";"Temporal";"V";FALSE;NA;NA;NA
+130;"lund1993fig16N1";"";"Monkey";"Prefrontal";"II";FALSE;NA;NA;NA
+131;"";"C010600A2";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+132;"";"JM090103-10-2";"Mouse";"Somatosensory";"IV";FALSE;"Yuste";"Stellate cell";"Internal dynamics determine the cortical response to thalamic stimulation"
+133;"";"2001-11-14-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+134;"";"C040600B2";"Rat";"Somatosensory";"II/III";TRUE;"Markram";"Not reported";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+135;"";"JM072203-10";"Mouse";"Somatosensory";"IV";FALSE;"Yuste";"Not reported";"Internal dynamics determine the cortical response to thalamic stimulation"
+136;"";"030430-6";"Mouse";"Visual";"V";FALSE;"Yuste";"Somatostatin (SOM) containing cell";"Calcium microdomains in aspiny dendrites"
+137;"";"C091000D-I3";"Rat";"Somatosensory";"V";FALSE;"Markram";"Chandelier cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+138;"";"DAG052C-1";"Mouse";"Visual";"not reported";FALSE;"Yuste";"Not reported";"Attractor dynamics of network UP states in the neocortex"
+139;"";"2003-12-03-C-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+140;"lund1991fig14N2";"";"Monkey";"Visual";"III";FALSE;NA;NA;NA
+141;"";"MD050201-3";"Mouse";"Somatosensory";"not reported";FALSE;"Yuste";"Not reported";"Two-photon photostimulation and imaging of neural circuits"
+142;"";"C181200A2";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Double bouquet cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+143;"";"2001-07-10-B-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+144;"";"C300997B-I4";"Rat";"Somatosensory";"IV";TRUE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+145;"";"2002-04-04-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+146;"";"030223-4-PV";"Mouse";"Visual";"II/III";FALSE;"Yuste";"Parvalbumin (PV) containing cell";"Correlation between axonal morphologies and synaptic input kinetics of interneurons from mouse visual cortex"
+147;"CCfig11N2";"";"Rabbit";"Visual";"II/III";FALSE;NA;NA;NA
+148;"";"2001-11-06-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+149;"";"020619-1-NPY";"Mouse";"Visual";"II/III";FALSE;"Yuste";"Neuropeptide Y (NPY) containing cell";"Correlation between axonal morphologies and synaptic input kinetics of interneurons from mouse visual cortex"
+150;"";"030124-1";"Mouse";"Visual";"not reported";FALSE;"Yuste";"Somatostatin (SOM) containing cell";"Calcium microdomains in aspiny dendrites"
+151;"lund1991fig10N1";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+152;"kisvarday1986fig3N9";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+153;"";"KP051607complete";"Mouse";"Somatosensory";"not reported";FALSE;"Yuste";"Not reported";"Two-photon photostimulation and imaging of neural circuits"
+154;"";"04-17-01-4doubleBouquet";"Monkey";"Prefrontal";"II/III";FALSE;"Gonzalez-Burgos";"Double bouquet cell";"Cluster analysis-based physiological classification and morphological properties of inhibitory neurons in layers 2-3 of monkey dorsolateral prefrontal cortex"
+155;"";"C010600B2";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+156;"lund1993fig11bN1";"";"Monkey";"Prefrontal";"IV";FALSE;NA;NA;NA
+157;"";"030223-2-PV";"Mouse";"Visual";"IV";FALSE;"Yuste";"Parvalbumin (PV) containing cell";"Correlation between axonal morphologies and synaptic input kinetics of interneurons from mouse visual cortex"
+158;"";"2002-11-25-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+159;"";"MJ062904-2";"Mouse";"Frontal";"II/III";FALSE;"Yuste";"Not reported";"Large-scale imaging of cortical network activity with calcium indicators"
+160;"lund1987fig10y11N1";"";"Monkey";"Visual";"V";FALSE;NA;NA;NA
+161;"";"C200897C-I1";"Rat";"Somatosensory";"IV";TRUE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+162;"";"05-30-01-5mediumArbor";"Monkey";"Prefrontal";"II/III";FALSE;"Gonzalez-Burgos";"Basket cell";"Cluster analysis-based physiological classification and morphological properties of inhibitory neurons in layers 2-3 of monkey dorsolateral prefrontal cortex"
+163;"";"C160998B-I";"Rat";"Somatosensory";"V";FALSE;"Markram";"Bitufted cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+164;"";"VN031605-0";"Mouse";"Somatosensory";"not reported";FALSE;"Yuste";"Martinotti cell";"Two-photon photostimulation and imaging of neural circuits"
+165;"";"DD030223-2-PV";"Mouse";"Area not reported";"not reported";FALSE;"Yuste";"Parvalbumin (PV) containing cell";"Calcium microdomains in aspiny dendrites"
+166;"";"C230300D1";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+167;"";"C260897C-I1";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+168;"peters1981fig8N1";"";"Cat";"Visual";"II/III";FALSE;NA;NA;NA
+169;"CCfig9N3";"";"Cat";"Visual";"III";FALSE;NA;NA;NA
+170;"";"C200199B-I4";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Bitufted cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+171;"";"C070600A2";"Rat";"Somatosensory";"IV";TRUE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+172;"";"C140600C-I1";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Bipolar cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+173;"lund1987fig16N1";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+174;"";"C290500B-I2";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+175;"kisvarday1990fig3N16";"";"Human";"Temporal";"II/III";FALSE;NA;NA;NA
+176;"";"030225-4-PV";"Mouse";"Visual";"not reported";FALSE;"Yuste";"Parvalbumin (PV) containing cell";"Correlation between axonal morphologies and synaptic input kinetics of interneurons from mouse visual cortex"
+177;"";"MD070424-1(cor)";"Mouse";"Somatosensory";"not reported";FALSE;"Yuste";"Not reported";"Two-photon photostimulation and imaging of neural circuits"
+178;"";"C100501A3";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+179;"lund1993fig17N1";"";"Monkey";"Prefrontal";"III";FALSE;NA;NA;NA
+180;"";"C130897B-I4";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+181;"";"AM47-3-1";"Mouse";"Visual";"not reported";FALSE;"Yuste";"Not reported";"Modular propagation of epileptiform activity: evidence for an inhibitory veto in neocortex"
+182;"";"Vn05192006-0-1-C";"Mouse";"Somatosensory";"not reported";FALSE;"Yuste";"Somatostatin (SOM) containing cell";"Two-photon photostimulation and imaging of neural circuits"
+183;"";"C010600C1";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+184;"";"C150897B-I1";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+185;"";"C280199C-I4";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+186;"";"C281197A-I2";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+187;"";"C040600A2";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+188;"lund1991fig14N1";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+189;"";"DAG032F";"Mouse";"Visual";"not reported";FALSE;"Yuste";"Not reported";"Attractor dynamics of network UP states in the neocortex"
+190;"";"HM05906-3";"Mouse";"Somatosensory";"IV";FALSE;"Yuste";"Not reported";"Two-photon photostimulation and imaging of neural circuits"
+191;"";"2001-09-10-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+192;"";"020531-3-NPY";"Mouse";"Visual";"IV";FALSE;"Yuste";"Neuropeptide Y (NPY) containing cell";"Correlation between axonal morphologies and synaptic input kinetics of interneurons from mouse visual cortex"
+193;"lund1991fig4N1";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+194;"";"C240998A-I3";"Rat";"Somatosensory";"II/III";TRUE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+195;"";"03-27-01-s5neurogliaform";"Monkey";"Prefrontal";"II/III";FALSE;"Gonzalez-Burgos";"Neurogliaform cell";"Cluster analysis-based physiological classification and morphological properties of inhibitory neurons in layers 2-3 of monkey dorsolateral prefrontal cortex"
+196;"";"C210401C";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Bitufted cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+197;"lund1991fig15N1";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+198;"CCfig4N2";"";"Monkey";"Somatosensory";"IV";FALSE;NA;NA;NA
+199;"";"JM080803-20";"Mouse";"Somatosensory";"IV";FALSE;"Yuste";"Not reported";"Internal dynamics determine the cortical response to thalamic stimulation"
+200;"";"JM090103-10-1";"Mouse";"Somatosensory";"IV";FALSE;"Yuste";"Stellate cell";"Internal dynamics determine the cortical response to thalamic stimulation"
+201;"";"C271097A-I4";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+202;"";"C060998B-I1";"Rat";"Somatosensory";"IV";TRUE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+203;"";"C150600B-I1";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+204;"";"020515-2-NPY";"Mouse";"Visual";"IV";FALSE;"Yuste";"Neuropeptide Y (NPY) containing cell";"Correlation between axonal morphologies and synaptic input kinetics of interneurons from mouse visual cortex"
+205;"";"07-16-02-3doubleBouquet";"Monkey";"Prefrontal";"II/III";FALSE;"Gonzalez-Burgos";"Double bouquet cell";"Cluster analysis-based physiological classification and morphological properties of inhibitory neurons in layers 2-3 of monkey dorsolateral prefrontal cortex"
+206;"";"C060600A3";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+207;"lund1987fig13N1";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+208;"";"C070600B2";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+209;"lund1991fig3N1";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+210;"";"C050600B2";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+211;"peters1981fig1N2";"";"Cat";"Visual";"II/III";FALSE;NA;NA;NA
+212;"kisvarday1990fig3N23";"";"Human";"Temporal";"VI";FALSE;NA;NA;NA
+213;"lund1993fig3N1";"";"Monkey";"Prefrontal";"II";FALSE;NA;NA;NA
+214;"";"030225-5-PV";"Mouse";"Visual";"not reported";FALSE;"Yuste";"Parvalbumin (PV) containing cell";"Correlation between axonal morphologies and synaptic input kinetics of interneurons from mouse visual cortex"
+215;"";"C110300A1";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+216;"";"2002-12-02-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+217;"";"2001-09-18-C-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+218;"lewis1990fig5N2";"";"Monkey";"Prefrontal";"IV";FALSE;NA;NA;NA
+219;"";"C120501A1";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Double bouquet cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+220;"";"020315-3-ST";"Mouse";"Visual";"II/III";FALSE;"Yuste";"Somatostatin (SOM) containing cell";"Correlation between axonal morphologies and synaptic input kinetics of interneurons from mouse visual cortex"
+221;"";"C190997A-I1";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+222;"";"020315-2-ST";"Mouse";"Visual";"V";FALSE;"Yuste";"Somatostatin (SOM) containing cell";"Correlation between axonal morphologies and synaptic input kinetics of interneurons from mouse visual cortex"
+223;"";"C121097A-I1";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+224;"";"Vn05302006-0-C";"Mouse";"Somatosensory";"not reported";FALSE;"Yuste";"Somatostatin (SOM) containing cell";"Two-photon photostimulation and imaging of neural circuits"
+225;"";"nopr7-10-00s4-Gui-cm233-R";"Monkey";"Prefrontal";"II/III";FALSE;"Gonzalez-Burgos";"Adapting non-pyramidal cell";"Functional properties of fast spiking interneurons and their synaptic connections with pyramidal cells in primate dorsolateral prefrontal cortex"
+226;"";"2002-12-10-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+227;"";"C300301B1";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+228;"";"C080300B2";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+229;"";"030403-1";"Mouse";"Visual";"V";FALSE;"Yuste";"Martinotti cell";"Global dendritic calcium spikes in mouse layer 5 low threshold spiking interneurones: implications for control of pyramidal cell bursting"
+230;"";"030501-1";"Mouse";"Visual";"V";FALSE;"Yuste";"Neuropeptide Y (NPY) containing cell";"Calcium microdomains in aspiny dendrites"
+231;"";"020801-3-ST";"Mouse";"Visual";"not reported";FALSE;"Yuste";"Somatostatin (SOM) containing cell";"Calcium microdomains in aspiny dendrites"
+232;"";"JM092903-20-1";"Mouse";"Somatosensory";"IV";FALSE;"Yuste";"Stellate cell";"Internal dynamics determine the cortical response to thalamic stimulation"
+233;"lund1993fig16N2";"";"Monkey";"Prefrontal";"III";FALSE;NA;NA;NA
+234;"";"C140201A1";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Bitufted cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+235;"";"08-21-00-chandelier";"Monkey";"Prefrontal";"II/III";FALSE;"Gonzalez-Burgos";"Chandelier cell";"Cluster analysis-based physiological classification and morphological properties of inhibitory neurons in layers 2-3 of monkey dorsolateral prefrontal cortex"
+236;"";"2003-03-20-B-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+237;"CCfig18N2";"";"Rat";"Visual";"II/III";FALSE;NA;NA;NA
+238;"";"2004-02-14-B-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+239;"";"C050800E2";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Stellate cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+240;"";"2001-06-26-D-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+241;"kisvarday1990fig3N19";"";"Human";"Temporal";"IV";FALSE;NA;NA;NA
+242;"";"2001-09-25-B-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+243;"";"C050398B-I4";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+244;"";"2002-11-28-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+245;"";"C260199A-I3";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+246;"";"2003-12-03-D2-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+247;"";"AM50-2-3";"Mouse";"Visual";"not reported";FALSE;"Yuste";"Somatostatin (SOM) containing cell";"Modular propagation of epileptiform activity: evidence for an inhibitory veto in neocortex"
+248;"";"2001-09-26-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+249;"";"RJune";"Mouse";"Visual";"not reported";FALSE;"Yuste";"Not reported";"Attractor dynamics of network UP states in the neocortex"
+250;"";"C251197A-I1";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+251;"";"C120398A-I4";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+252;"";"C220797A-I2";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Bitufted cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+253;"";"020726-3-NPY";"Mouse";"Visual";"V";FALSE;"Yuste";"Neuropeptide Y (NPY) containing cell";"Correlation between axonal morphologies and synaptic input kinetics of interneurons from mouse visual cortex"
+254;"";"2001-09-12-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+255;"";"08-21-00-2localArbor";"Monkey";"Prefrontal";"II/III";FALSE;"Gonzalez-Burgos";"Basket cell";"Cluster analysis-based physiological classification and morphological properties of inhibitory neurons in layers 2-3 of monkey dorsolateral prefrontal cortex"
+256;"";"DAG112F";"Mouse";"Visual";"not reported";FALSE;"Yuste";"Not reported";"Attractor dynamics of network UP states in the neocortex"
+257;"fig2b";"";"Rat";"Frontal";"II/III";FALSE;NA;NA;NA
+258;"lund1987fig3N2";"";"Monkey";"Visual";"V";FALSE;NA;NA;NA
+259;"";"020530-2-NPY";"Mouse";"Visual";"II/III";FALSE;"Yuste";"Neuropeptide Y (NPY) containing cell";"Correlation between axonal morphologies and synaptic input kinetics of interneurons from mouse visual cortex"
+260;"";"030407-5";"Mouse";"Visual";"V";FALSE;"Yuste";"Somatostatin (SOM) containing cell";"Calcium microdomains in aspiny dendrites"
+261;"lund1987fig12N2";"";"Monkey";"Visual";"V";FALSE;NA;NA;NA
+262;"";"Vn05302006-0-B";"Mouse";"Somatosensory";"not reported";FALSE;"Yuste";"Somatostatin (SOM) containing cell";"Two-photon photostimulation and imaging of neural circuits"
+263;"";"2001-10-08-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+264;"kisvarday1986fig2N4";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+265;"CCfig18N1";"";"Cat";"Visual";"IV";FALSE;NA;NA;NA
+266;"";"C250500A-I4";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+267;"kisvarday1990fig3N24";"";"Human";"Temporal";"VI";FALSE;NA;NA;NA
+268;"";"AM101-3-1";"Mouse";"Visual";"II/III";FALSE;"Yuste";"Not reported";"Modular propagation of epileptiform activity: evidence for an inhibitory veto in neocortex"
+269;"";"2002-12-09-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+270;"";"C170998D-I3";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Neurogliaform cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+271;"kisvarday1986fig2N1";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+272;"";"MJ061705-2";"Mouse";"Frontal";"II/III";FALSE;"Yuste";"Not reported";"Large-scale imaging of cortical network activity with calcium indicators"
+273;"";"C060600A2";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+274;"";"C290999C-I4";"Rat";"Somatosensory";"V";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+275;"";"C281199A-IN";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+276;"";"C200199B-I3";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Bitufted cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+277;"lewis1990fig2N1";"";"Monkey";"Prefrontal";"II/III";FALSE;NA;NA;NA
+278;"";"2003-12-02-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+279;"";"C240300C1";"Rat";"Somatosensory";"V";FALSE;"Markram";"Bipolar cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+280;"";"MD070503-4";"Mouse";"Somatosensory";"not reported";FALSE;"Yuste";"Not reported";"Two-photon photostimulation and imaging of neural circuits"
+281;"";"C300997A-I1";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Bitufted cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+282;"";"2003-02-24-A1-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+283;"";"C020200-16";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+284;"lund1993fig6N1";"";"Monkey";"Prefrontal";"IV";FALSE;NA;NA;NA
+285;"lund1991fig9N1";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+286;"";"2003-12-01-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+287;"";"C080400C2";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Double bouquet cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+288;"";"2001-11-09-A-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+289;"";"C240199B-I2";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+290;"";"M062105SL2";"Mouse";"Frontal";"II/III";FALSE;"Yuste";"Not reported";"Large-scale imaging of cortical network activity with calcium indicators"
+291;"";"C180298B-I3";"Rat";"Somatosensory";"V";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+292;"";"C031000B-I2";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Martinotti cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+293;"";"C031097B-I4";"Rat";"Somatosensory";"IV";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+294;"";"03-22-01-2doubleBouquet";"Monkey";"Prefrontal";"II/III";FALSE;"Gonzalez-Burgos";"Double bouquet cell";"Cluster analysis-based physiological classification and morphological properties of inhibitory neurons in layers 2-3 of monkey dorsolateral prefrontal cortex"
+295;"";"03-22-01-5localArbor";"Monkey";"Prefrontal";"II/III";FALSE;"Gonzalez-Burgos";"Basket cell";"Cluster analysis-based physiological classification and morphological properties of inhibitory neurons in layers 2-3 of monkey dorsolateral prefrontal cortex"
+296;"";"2003-12-02-B-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+297;"";"030407-4";"Mouse";"Visual";"V";FALSE;"Yuste";"Somatostatin (SOM) containing cell";"Calcium microdomains in aspiny dendrites"
+298;"";"C240998A-I";"Rat";"Somatosensory";"V";FALSE;"Markram";"Bitufted cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+299;"kisvarday1986fig2N2";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+300;"lund1991fig9N2";"";"Monkey";"Visual";"IV";FALSE;NA;NA;NA
+301;"";"09-06-01-4neurogliaform";"Monkey";"Prefrontal";"II/III";FALSE;"Gonzalez-Burgos";"Neurogliaform cell";"Cluster analysis-based physiological classification and morphological properties of inhibitory neurons in layers 2-3 of monkey dorsolateral prefrontal cortex"
+302;"";"AM81-2-3";"Mouse";"Visual";"not reported";FALSE;"Yuste";"Martinotti cell";"Modular propagation of epileptiform activity: evidence for an inhibitory veto in neocortex"
+303;"";"AM81-2-2";"Mouse";"Visual";"not reported";FALSE;"Yuste";"Martinotti cell";"Modular propagation of epileptiform activity: evidence for an inhibitory veto in neocortex"
+304;"";"C220498B-I4";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Bitufted cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+305;"";"030124-4";"Mouse";"Visual";"not reported";FALSE;"Yuste";"Somatostatin (SOM) containing cell";"Calcium microdomains in aspiny dendrites"
+306;"";"2002-03-25-B-L23-dendax";"Rat";"Somatosensory";"II/III";FALSE;"Helmstaedter";"Not reported";"The relation between dendritic geometry, electrical excitability, and axonal projections of L2/3 Interneurons in rat barrel cortex."
+307;"";"C070600A4";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Basket cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+308;"kisvarday1990fig3N21";"";"Human";"Temporal";"V";FALSE;NA;NA;NA
+309;"";"030228-1";"Mouse";"Visual";"not reported";FALSE;"Yuste";"Not reported";"Calcium microdomains in aspiny dendrites"
+310;"peters1981fig1N1";"";"Cat";"Visual";"II/III";FALSE;NA;NA;NA
+311;"";"M070705SL2";"Mouse";"Frontal";"II/III";FALSE;"Yuste";"Not reported";"Large-scale imaging of cortical network activity with calcium indicators"
+312;"";"C080400A3";"Rat";"Somatosensory";"II/III";FALSE;"Markram";"Chandelier cell";"Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex"
+313;"jones1b";"";"Monkey";"Somatosensory";"III";FALSE;NA;NA;NA
+314;"fig2a";"";"Rat";"Frontal";"V";FALSE;NA;NA;NA
+315;"Thomson2007fig1";"";"Rat";"Somatosensory";"IV";FALSE;NA;NA;NA
+316;"";"030502-3";"Mouse";"Visual";"V";FALSE;"Yuste";"Not reported";"Calcium microdomains in aspiny dendrites"
+317;"cestojavier";"";"Monkey";"Somatosensory";"III";FALSE;NA;NA;NA
+318;"jones1a";"";"Monkey";"Somatosensory";"III";FALSE;NA;NA;NA
+319;"lund1993fig9N1";"";"Monkey";"Prefrontal";"III";FALSE;NA;NA;NA
+320;"fig12valverderabbit";"";"Rabbit";"Visual";"II/III";FALSE;NA;NA;NA
