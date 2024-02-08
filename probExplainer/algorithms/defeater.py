@@ -1,16 +1,40 @@
 import numpy as np
-# import pyAgrum as gum
-from probExplainer import utils
+from probExplainer.algorithms import utils
 import math
 
 from probExplainer.model.ProbabilisticGraphicalModel import ProbabilisticGraphicalModel, Model
-from probExplainer.model.Model import ImplausibleEvidenceException
-from probExplainer.model.BayesianNetwork import BayesianNetwork
 
 
-def check_every_r_silja(model: ProbabilisticGraphicalModel, evidence: dict, target: list, depth=np.inf):
+def get_defeaters(model: ProbabilisticGraphicalModel, evidence: dict, target: list, depth=np.inf,
+                  evaluate_singletons=True):
+    """Gets the sets of variables that can defeat a MAP explanation (relevant sets) and the ones that cannot (irrelevant sets)
+
+        Parameters ----------
+        model : ProbabilisticGraphicalModel
+            The Probabilistic graphical model to obtain the explanation from
+        evidence : dict
+            A dictionary containing the evidence to be explained. The keys are the
+        variable names and the values are the variable values
+        target : list
+            A list of strings containing the names of the hypothesis variables. A MAP explanation is the most probable
+             value of these variables given the evidence
+        depth : int
+            The maximum size of the sets of irrelevant variables. Default is the maximum possible size
+        evaluate_singletons : bool
+            If True, we first evaluate the set of singletons defeaters as explained in the
+            article "Efficient search for relevance explanations using MAP-independence in Bayesian networks",
+            that allows for a faster evaluations of singletons. This causes some issues with some explanations regarding
+            multivariate targets (many hypothesis nodes) and thus can be set to False in order to ensure consistency, yet
+            slower execution.
+        verbose : bool
+            If True, prints the progress of the algorithm. Default is False
+
+        Returns
+        -------
+        tuple
+            Returns a tuple consisting of two lists. The first list contains the relevant sets of variables, and the second list contains the irrelevant sets of variables.
+        """
     # Check which are the supplementary variables
-    global c_i
     variables = model.get_variables()
     supp_vars = []
     for var in variables:
@@ -59,64 +83,73 @@ def check_every_r_silja(model: ProbabilisticGraphicalModel, evidence: dict, targ
     posterior = model.compute_posterior(evidence=evidence, target=target)
     y = model.argmax(array_prob=posterior, dim_names=target)[0]
 
-    # Value assignment y, but in a different format
-    h_star = tuple(list(y.values()))
+    if evaluate_singletons:
+        # Value assignment y, but in a different format
+        h_star = tuple(list(y.values()))
 
-    c_exp = get_c_exp(model, evidence, target=y)
-    # inst_c = gum.Instantiation(c_exp)
+        c_exp = get_c_exp(model, evidence, target=y)
+        # inst_c = gum.Instantiation(c_exp)
 
-    # First evaluation of relevance. It helps to identify relevance but NOT irrelevance
-    to_prop = evidence.copy()
-    to_prop.update(y)
-    prob_R_given_e_h_star = model.compute_univariate(to_prop, supp_vars)
-    relevant_singletons = []
-    for j in supp_vars:
-        # If relevant
-        if model.argmin(prob_R_given_e_h_star[j], [j])[1] == 0:
-            relevant_sets.append((j,))
-            relevant_singletons.append(j)
-    tmp = utils.list_diff(supp_vars, relevant_singletons)
-
-    # Second evaluation of relevance. This will help us determine if the nodes not previously labeled are relevant or irrelevant
-    omega_h = model.get_domain_of(target)
-    for h_i in omega_h:
-        if len(tmp) == 0:
-            break
-        if h_i == h_star:
-            continue
-        # print(h_i)
-        # print(y)
+        # First evaluation of relevance. It helps to identify relevance but NOT irrelevance
         to_prop = evidence.copy()
-        to_prop.update(dict(zip(target, list(h_i))))
-        prob_R_given_e_hi = model.compute_univariate(to_prop, tmp)
-
-        c_expon = utils.get_probability(model, c_exp, dim_names=target,
-                                        assignment={target[i]: h_i[i] for i in range(len(target))})
-        c_i = None
-        if c_expon == 0:
-            c_i = -np.inf
-        else:
-            c_i = math.log(c_expon)
-
-        for j in tmp:
-            post_max = prob_R_given_e_h_star[j]
-            post_max.flatten()
-            post = prob_R_given_e_hi[j]
-            post.flatten()
-            h = 0
-            while h < len(post) and (post[h] / post_max[h] <= 0 or not math.log(
-                    post[h] / post_max[h]) + c_i > 0):
-                h = h + 1
-            if h < len(post):
+        to_prop.update(y)
+        prob_R_given_e_h_star = model.compute_univariate(to_prop, supp_vars)
+        relevant_singletons = []
+        for j in supp_vars:
+            # If relevant
+            if model.argmin(prob_R_given_e_h_star[j], [j])[1] == 0:
                 relevant_sets.append((j,))
                 relevant_singletons.append(j)
-        # print(S_split[0])
-        # print(relevant_singletons)
-        tmp = utils.list_diff(tmp, relevant_singletons)
+        tmp = utils.list_diff(supp_vars, relevant_singletons)
 
-    irrelevant_singletons = irrelevant_singletons + tmp
-    for j in irrelevant_singletons:
-        irrelevant_sets.append((j,))
+        # Second evaluation of relevance. This will help us determine if the nodes not previously labeled are relevant or irrelevant
+        omega_h = model.get_domain_of(target)
+        for h_i in omega_h:
+            if len(tmp) == 0:
+                break
+            if h_i == h_star:
+                continue
+            # print(h_i)
+            # print(y)
+            to_prop = evidence.copy()
+            to_prop.update(dict(zip(target, list(h_i))))
+            prob_R_given_e_hi = model.compute_univariate(to_prop, tmp)
+
+            c_expon = utils.get_probability(model, c_exp, dim_names=target,
+                                            assignment={target[i]: h_i[i] for i in range(len(target))})
+            c_i = None
+            if c_expon == 0:
+                c_i = -np.inf
+            else:
+                c_i = math.log(c_expon)
+
+            for j in tmp:
+                post_max = prob_R_given_e_h_star[j]
+                post_max.flatten()
+                post = prob_R_given_e_hi[j]
+                post.flatten()
+                h = 0
+                while h < len(post) and (post[h] / post_max[h] <= 0 or not math.log(
+                        post[h] / post_max[h]) + c_i > 0):
+                    h = h + 1
+                if h < len(post):
+                    relevant_sets.append((j,))
+                    relevant_singletons.append(j)
+            # print(S_split[0])
+            # print(relevant_singletons)
+            tmp = utils.list_diff(tmp, relevant_singletons)
+
+        irrelevant_singletons = irrelevant_singletons + tmp
+        for j in irrelevant_singletons:
+            irrelevant_sets.append((j,))
+
+    else:
+        for i in supp_vars:
+            if model.map_dependence(set_r=[i], ev_vars=evidence, map=y):
+                relevant_sets.append((i,))
+            else:
+                irrelevant_sets.append((i,))
+                irrelevant_singletons.append(i)
 
     if len(irrelevant_singletons) == 0 or depth == 1:
         return relevant_sets, irrelevant_sets
@@ -177,6 +210,24 @@ def check_every_r_silja(model: ProbabilisticGraphicalModel, evidence: dict, targ
 
 
 def get_c_exp(model: Model, evidence: dict, target: dict):
+    '''Computes P(H,e)/P(h*|e), which is a necessary computation for efficiently finding defeaters
+
+    Parameters
+    ----------
+    model : Model
+        The model to obtain the evidence likelihood from
+    evidence : dict
+        A dictionary containing the evidence to be explained. The keys are the
+        variable names and the values are the variable values
+    target : dict
+        A dictionary containing the target variables. The keys are the
+        variable names and the values are the variable values
+
+    Returns
+    -------
+    np.ndarray
+        The value of P(H,e)/P(h*|e)
+    '''
     # Compute P(e)
     p_e = model.evidence_likelihood(evidence)
 
@@ -192,7 +243,8 @@ def get_c_exp(model: Model, evidence: dict, target: dict):
     return post_He / p_eh
 
 
-def decomposition_prune(relevant_set, S_split, relevant_sets):
+def decomposition_prune(relevant_set : tuple, S_split : list, relevant_sets : list):
+
     i = len(relevant_set)
     for k in range(i, len(S_split)):
         tmp = []
@@ -203,7 +255,8 @@ def decomposition_prune(relevant_set, S_split, relevant_sets):
     return S_split, relevant_sets
 
 
-def conditional_independence_prune(model : ProbabilisticGraphicalModel, supp_vars, hyp_vars, ev_vars, irrelevant_set, S_split, irrelevant_sets, depth):
+def conditional_independence_prune(model: ProbabilisticGraphicalModel, supp_vars, hyp_vars, ev_vars, irrelevant_set,
+                                   S_split, irrelevant_sets, depth):
     # Delete from the network the nodes that are conditionally independent from the hypothesis variables (target) given the evidence
     dsep_nodes = []
     for i in supp_vars:

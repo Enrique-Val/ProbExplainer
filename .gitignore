@@ -4,3 +4,7 @@
 data/annotation-input/images/neuron1.jpg
 
 *.jpg
+
+*.pyc
+
+.idea/

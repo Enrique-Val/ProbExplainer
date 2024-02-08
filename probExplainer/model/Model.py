@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from itertools import product
 import numpy as np
-from probExplainer import utils
+from probExplainer.algorithms import utils
 
 
 class Model(ABC):
@@ -141,7 +141,7 @@ class Model(ABC):
                 # Check if we need to compute the jsd divergence between P(H|e) and P(H|e,r)
                 if map == map_alt:
                     strength = strength + utils.get_probability(self, array_prob=p_r_given_e, dim_names=set_r,
-                                          assignment={i[0]: i[1] for i in zip(set_r, value_assignment_r)})
+                                                                assignment={i[0]: i[1] for i in zip(set_r, value_assignment_r)})
             except ImplausibleEvidenceException:
                 continue
         if strength < 0 :
