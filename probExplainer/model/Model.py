@@ -53,14 +53,14 @@ class Model(ABC):
     def compute_univariate(self, evidence: dict, target: list):
         pass
 
-    def map_independence(self, set_r: list, ev_vars: dict, map: dict, posterior=None, return_jsd=False):
+    def map_independence(self, set_r: list, ev_vars: dict, map: dict, posterior=None, return_jsd=False) -> bool | tuple:
         if return_jsd:
             map_dep, jsd = self.map_dependence(set_r, ev_vars, map, posterior=posterior, return_jsd=True)
             return not map_dep, jsd
         else:
             return not self.map_dependence(set_r, ev_vars, map)
 
-    def map_dependence(self, set_r: list, ev_vars: dict, map: dict, posterior=None, return_jsd=False):
+    def map_dependence(self, set_r: list, ev_vars: dict, map: dict, posterior=None, return_jsd=False) -> bool | tuple:
         if return_jsd and posterior is None:
             err = "For the Jensen-Shannon divergence to be computed, the parameter \"posteriors\"" \
                   " should contain an array representing the probabilities of the targets y given the evidence"
@@ -125,8 +125,8 @@ class Model(ABC):
         omega_r = self.get_domain_of(set_r)
         # For each value assignment r in omega(R)
         p_r_given_e = self.compute_posterior(evidence=ev_vars, target=set_r)
-        #print(set_r)
-        #print(p_r_given_e)
+        # print(set_r)
+        # print(p_r_given_e)
         strength = 0
         for value_assignment_r in omega_r:
             # Fill in values
@@ -136,17 +136,18 @@ class Model(ABC):
             try:
                 posterior_alt = self.compute_posterior(evidence=ev_vars_alt, target=list(map.keys()))
                 map_alt = self.argmax(posterior_alt, list(map.keys()))[0]
-                #print("R value: ", {i[0]: i[1] for i in zip(set_r, value_assignment_r)})
-                #print("MAP alternative: ",map_alt)
+                # print("R value: ", {i[0]: i[1] for i in zip(set_r, value_assignment_r)})
+                # print("MAP alternative: ",map_alt)
                 # Check if we need to compute the jsd divergence between P(H|e) and P(H|e,r)
                 if map == map_alt:
                     strength = strength + utils.get_probability(self, array_prob=p_r_given_e, dim_names=set_r,
-                                                                assignment={i[0]: i[1] for i in zip(set_r, value_assignment_r)})
+                                                                assignment={i[0]: i[1] for i in
+                                                                            zip(set_r, value_assignment_r)})
             except ImplausibleEvidenceException:
                 continue
-        if strength < 0 :
+        if strength < 0:
             strength = 0
-        if strength > 1 :
+        if strength > 1:
             strength = 1
         return strength
 
@@ -156,7 +157,7 @@ class Model(ABC):
         assert (len(array_prob.shape) == len(dim_names))
         max_index = np.unravel_index(array_prob.argmax(), array_prob.shape)
         return {dim_names[i]: self.get_domain_of([dim_names[i]])[max_index[i]][0] for i in range(len(dim_names))}, \
-        array_prob[max_index]
+            array_prob[max_index]
 
     def argmin(self, array_prob, dim_names=None):
         if dim_names is None:
@@ -164,7 +165,7 @@ class Model(ABC):
         assert (len(array_prob.shape) == len(dim_names))
         max_index = np.unravel_index(array_prob.argmin(), array_prob.shape)
         return {dim_names[i]: self.get_domain_of([dim_names[i]])[max_index[i]][0] for i in range(len(dim_names))}, \
-        array_prob[max_index]
+            array_prob[max_index]
 
 
 class ImplausibleEvidenceException(Exception):

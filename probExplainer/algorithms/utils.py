@@ -1,6 +1,6 @@
 from itertools import chain, combinations
 import numpy as np
-import scipy.stats
+from scipy.stats import entropy
 from probExplainer.model import Model
 
 
@@ -19,7 +19,7 @@ def JSD(array_1: np.array, array_2: np.array) -> float:
     m = (p + q) / 2
 
     # compute Jensen Shannon Divergence
-    divergence = (scipy.stats.entropy(p, m) + scipy.stats.entropy(q, m)) / 2
+    divergence = (entropy(p, m) + entropy(q, m)) / 2
     return divergence
 
 

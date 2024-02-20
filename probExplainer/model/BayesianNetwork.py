@@ -27,6 +27,12 @@ class BayesianNetworkPyAgrum(BayesianNetwork):
     def markov_blanket(self, node) -> set:
         return {self.implementation.variable(i).name() for i in gum.MarkovBlanket(self.implementation, node).nodes()}
 
+    def get_parents(self, node):
+        return [self.implementation.variable(i).name() for i in self.implementation.parents(node)]
+
+    def get_children(self, node):
+        return [self.implementation.variable(i).name() for i in self.implementation.children(node)]
+
     def compute_posterior(self, evidence: dict, target: list) -> np.array:
         if not self.plausible_evidence(evidence):
             raise ImplausibleEvidenceException
